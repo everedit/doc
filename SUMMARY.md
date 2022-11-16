@@ -1,2 +1,2 @@
-* [代码片段] (snippet.md)
-* [脚本] (script.md)
+* [代码片段] (zh/snippet.md)
+* [脚本] (zh/script.md)
