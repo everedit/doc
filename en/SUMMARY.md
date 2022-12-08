@@ -1,3 +1,3 @@
-* [Script] (script.md)
-* [Snippet] (snippet.md)
+* [Script](script.md)
+* [Snippet](snippet.md)
 
