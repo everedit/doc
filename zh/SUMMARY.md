@@ -1,8 +1,0 @@
-* [代码片段](snippet.md)
-* [脚本](script.md)
-* [模式](mode.md)
-* [命令行参数](cli.md)
-* [语法着色](syntax.md)
-* [Web形式插件](web.md)
-* [命令窗口](cmdbar.md)
-* [常见问题](qa.md)
