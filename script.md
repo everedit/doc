@@ -10,6 +10,10 @@ VBScript files should be saved with `.mac` or `.evb` and JScript should be `.ejs
 Open shortcut manager and drag-drop a script file into the dialog or click `Bind` button to add a script file into Shortcut View. Then, just set the shortcut like normal commands.
 
 # Built-in Objects and Functions
+* `SCRIPT_PATH`: get path of current script
+* `SCRIPT_FULLNAME` get full path(path+filename) of current script
+* `SCRIPT_NAMEONLY` get file name only of current script
+* `Include()`: include a script
 
 ## Application
 An application object means the EverEdit instance you are using.
@@ -31,6 +35,8 @@ string CreateTempFile(bool bAutoDelete);
 void DebugLibrary(string strPathName);
 void OpenSnippetByTitle(string title);
 string GetResultFromExe(string cmdline, string initdir="", int encoding=0)
+// delete template file by title
+void DeleteTemplate(string title)
 
 // properties
 Document ActiveDoc; //get
