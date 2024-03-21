@@ -379,6 +379,14 @@ void Hide();
 void SendCommand(int uCommand);
 ```
 
+## Project
+```c
+// get specific file path
+string GetFile(int idx);
+// get files count in current project
+int FileCount;//get
+```
+
 ```c
 // You can't use the below functions right now (Not ready, in developing)!
 void InsertText(int nOffset, string strText);
